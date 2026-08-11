@@ -1,0 +1,53 @@
+name: 每日資料更新
+
+on:
+  schedule:
+    # 美股收盤（4pm ET）後留緩衝；用 timezone 欄位讓 GitHub 自動處理 EST/EDT 切換，不用手動換算 UTC
+    - cron: "30 17 * * 1-5"
+      timezone: "America/New_York"
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+concurrency:
+  group: update-data
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: "pip"
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: 每日增量抓取
+        working-directory: scripts
+        env:
+          TWELVEDATA_API_KEY: ${{ secrets.TWELVEDATA_API_KEY }}
+        run: python fetch_data.py
+
+      - name: 計算技術指標與綜合分數
+        working-directory: scripts
+        run: python compute_indicators.py
+
+      - name: Commit 更新（無變動則跳過）
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/
+          if git diff --cached --quiet; then
+            echo "資料無變動（可能是非交易日），不需要 commit。"
+          else
+            git commit -m "chore: 每日資料更新 $(date -u +%Y-%m-%d)"
+            git push
+          fi

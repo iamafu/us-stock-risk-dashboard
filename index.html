@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="zh-Hant-TW">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>美股 ETF 定期定額監控儀表板</title>
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+  <div class="wrap">
+    <header class="top">
+      <h1>美股 ETF 定期定額監控儀表板</h1>
+      <span class="updated" id="updated-at">載入中...</span>
+    </header>
+
+    <div id="app-status" class="loading">資料載入中...</div>
+
+    <main id="app" style="display:none;">
+      <div class="hero-gauge" id="hero-gauge"></div>
+
+      <section id="ticker-section">
+        <p class="section-title">6 檔 ETF ＋ 3 大指數</p>
+        <div class="ticker-grid" id="ticker-grid"></div>
+      </section>
+
+      <section>
+        <div class="panel-row">
+          <div class="chart-panel">
+            <div class="head">
+              <h3 id="chart-title">走勢圖</h3>
+              <div class="pills" id="period-pills"></div>
+            </div>
+            <div class="sub" id="chart-sub" style="margin-bottom:10px;"></div>
+            <div class="chart-canvas-wrap"><canvas id="price-chart"></canvas></div>
+          </div>
+
+          <div>
+            <div class="side-panel">
+              <h3>本月扣款節奏</h3>
+              <div id="dca-panel"></div>
+            </div>
+            <div class="side-panel">
+              <h3>波克夏 13F 季度脈絡卡</h3>
+              <div id="berkshire-panel"></div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="disclaimer" id="disclaimer">
+      本儀表板為個人資訊工具，所有「過熱／超跌」判斷皆為公開技術指標（RSI、200 日均線乖離率、近 3 年價格百分位、VIX 恐慌指數）的客觀呈現，統計上是否能提升定期定額報酬證據薄弱，僅供資訊參考，不構成個人化投資建議，請自行評估後決策。波克夏 13F 因申報頻率（每季、最長落後 45 天）與範圍（個股持股，非大盤估值）限制，僅作季度低頻脈絡參考。
+    </footer>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.4/dist/chart.umd.min.js"></script>
+  <script src="assets/js/dashboard.js"></script>
+</body>
+</html>

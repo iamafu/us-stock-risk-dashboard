@@ -1,0 +1,48 @@
+name: 波克夏 13F 季度脈絡卡更新
+
+on:
+  schedule:
+    # 13F 申報截止日固定在每季結束後 45 天（約 2/14、5/15、8/14、11/14），
+    # 用「每週一檢查一次」取代精確猜測日期，腳本本身是幂等的：沒有新申報就不會有變動可 commit
+    - cron: "0 12 * * 1"
+      timezone: "America/New_York"
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+concurrency:
+  group: update-13f
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: "pip"
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: 抓取波克夏最新 13F
+        working-directory: scripts
+        run: python fetch_13f.py
+
+      - name: Commit 更新（無新申報則跳過）
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/berkshire_13f.json
+          if git diff --cached --quiet; then
+            echo "沒有新的 13F 申報，不需要 commit。"
+          else
+            git commit -m "chore: 波克夏 13F 脈絡卡更新 $(date -u +%Y-%m-%d)"
+            git push
+          fi

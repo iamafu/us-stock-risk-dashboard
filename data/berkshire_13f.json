@@ -1,0 +1,77 @@
+{
+  "filing_date": "2026-05-15",
+  "report_period_end": "2026-03-31",
+  "compared_to_report_period_end": "2025-12-31",
+  "note": "13F 依 SEC 規定每季申報、最長落後申報截止日 45 天，僅反映個股買賣，非大盤估值，不併入每日市場溫度分數，僅作季度低頻脈絡參考。",
+  "direction": "淨賣超",
+  "holdings_count_latest": 29,
+  "holdings_count_previous": 42,
+  "increased_count": 4,
+  "decreased_count": 6,
+  "new_count": 3,
+  "sold_out_count": 16,
+  "top_increased": [
+    {
+      "name": "ALPHABET INC",
+      "shares": 54249798,
+      "change_pct": 203.98613885286804
+    },
+    {
+      "name": "NEW YORK TIMES CO MTN BE",
+      "shares": 15146535,
+      "change_pct": 198.99921906831452
+    },
+    {
+      "name": "LENNAR CORP",
+      "shares": 10099642,
+      "change_pct": 43.238031754586274
+    }
+  ],
+  "top_new": [
+    {
+      "name": "DELTA AIR LINES INC",
+      "shares": 39809456
+    },
+    {
+      "name": "ALPHABET INC",
+      "shares": 3585215
+    },
+    {
+      "name": "MACYS INC",
+      "shares": 3038355
+    }
+  ],
+  "top_decreased": [
+    {
+      "name": "CONSTELLATION BRANDS INC",
+      "shares": 632890,
+      "change_pct": -95.13161538461539
+    },
+    {
+      "name": "NUCOR CORP",
+      "shares": 3907075,
+      "change_pct": -39.02577956783263
+    },
+    {
+      "name": "CHEVRON CORPORATION",
+      "shares": 84375856,
+      "change_pct": -35.1734677402861
+    }
+  ],
+  "top_sold_out": [
+    {
+      "name": "VISA INC",
+      "shares": 8297460
+    },
+    {
+      "name": "POOL CORP",
+      "shares": 3068885
+    },
+    {
+      "name": "LIBERTY LATIN AMERICA LTD",
+      "shares": 2396665
+    }
+  ],
+  "total_value_latest": 263095703570,
+  "total_value_previous": 274160086701
+}
