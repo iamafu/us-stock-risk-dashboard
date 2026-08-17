@@ -1,77 +1,61 @@
 {
-  "filing_date": "2026-05-15",
-  "report_period_end": "2026-03-31",
-  "compared_to_report_period_end": "2025-12-31",
+  "filing_date": "2026-08-14",
+  "report_period_end": "2026-06-30",
+  "compared_to_report_period_end": "2026-03-31",
   "note": "13F 依 SEC 規定每季申報、最長落後申報截止日 45 天，僅反映個股買賣，非大盤估值，不併入每日市場溫度分數，僅作季度低頻脈絡參考。",
-  "direction": "淨賣超",
+  "direction": "淨買超",
   "holdings_count_latest": 29,
-  "holdings_count_previous": 42,
-  "increased_count": 4,
+  "holdings_count_previous": 29,
+  "increased_count": 7,
   "decreased_count": 6,
-  "new_count": 3,
-  "sold_out_count": 16,
+  "new_count": 1,
+  "sold_out_count": 1,
   "top_increased": [
     {
       "name": "ALPHABET INC",
-      "shares": 54249798,
-      "change_pct": 203.98613885286804
+      "shares": 27188433,
+      "change_pct": 658.3487461700345
     },
     {
-      "name": "NEW YORK TIMES CO MTN BE",
-      "shares": 15146535,
-      "change_pct": 198.99921906831452
+      "name": "MACYS INC",
+      "shares": 7347426,
+      "change_pct": 141.82249934586312
     },
     {
-      "name": "LENNAR CORP",
-      "shares": 10099642,
-      "change_pct": 43.238031754586274
+      "name": "ALPHABET INC",
+      "shares": 78791167,
+      "change_pct": 45.23771498651479
     }
   ],
   "top_new": [
     {
-      "name": "DELTA AIR LINES INC",
-      "shares": 39809456
-    },
-    {
-      "name": "ALPHABET INC",
-      "shares": 3585215
-    },
-    {
-      "name": "MACYS INC",
-      "shares": 3038355
+      "name": "D R HORTON INC",
+      "shares": 3564
     }
   ],
   "top_decreased": [
     {
-      "name": "CONSTELLATION BRANDS INC",
-      "shares": 632890,
-      "change_pct": -95.13161538461539
+      "name": "CAPITAL ONE FINL CORP",
+      "shares": 3000000,
+      "change_pct": -58.04195804195804
     },
     {
       "name": "NUCOR CORP",
-      "shares": 3907075,
-      "change_pct": -39.02577956783263
+      "shares": 1857752,
+      "change_pct": -52.45159102397574
     },
     {
-      "name": "CHEVRON CORPORATION",
-      "shares": 84375856,
-      "change_pct": -35.1734677402861
+      "name": "KROGER CO",
+      "shares": 39000000,
+      "change_pct": -21.999999999999996
     }
   ],
   "top_sold_out": [
     {
-      "name": "VISA INC",
-      "shares": 8297460
-    },
-    {
-      "name": "POOL CORP",
-      "shares": 3068885
-    },
-    {
-      "name": "LIBERTY LATIN AMERICA LTD",
-      "shares": 2396665
+      "name": "CONSTELLATION BRANDS INC",
+      "shares": 632890
     }
   ],
-  "total_value_latest": 263095703570,
-  "total_value_previous": 274160086701
+  "total_value_latest": 299253556246,
+  "total_value_previous": 263095703570
 }
