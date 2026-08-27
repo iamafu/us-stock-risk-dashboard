@@ -4,13 +4,13 @@
       "id": "VTI",
       "name": "Vanguard 全市場",
       "type": "etf",
-      "date": "2026-08-24",
-      "close": 377.03,
-      "change_pct": -0.33,
-      "rsi14": 52.0,
-      "ma200_deviation_zscore": 0.18,
+      "date": "2026-08-26",
+      "close": 378.23,
+      "change_pct": 0.32,
+      "rsi14": 54.0,
+      "ma200_deviation_zscore": 0.24,
       "price_percentile_3y": 98.3,
-      "composite_score": 64.3,
+      "composite_score": 67.5,
       "timeframes": {
         "daily": [
           {
@@ -40476,6 +40476,14 @@
             "low": 376.4836,
             "close": 377.03,
             "volume": 4562144
+          },
+          {
+            "date": "2026-08-26",
+            "open": 377.69,
+            "high": 378.9,
+            "low": 377.28,
+            "close": 378.23,
+            "volume": 2229253
           }
         ],
         "weekly": [
@@ -48874,10 +48882,10 @@
           {
             "date": "2026-08-28",
             "open": 377.92,
-            "high": 378.0,
+            "high": 378.9,
             "low": 376.4836,
-            "close": 377.03,
-            "volume": 4562144
+            "close": 378.23,
+            "volume": 6791397
           }
         ],
         "monthly": [
@@ -50814,8 +50822,8 @@
             "open": 369.5,
             "high": 385.1199,
             "low": 369.0,
-            "close": 377.03,
-            "volume": 51587505
+            "close": 378.23,
+            "volume": 53816758
           }
         ],
         "quarterly": [
@@ -51464,8 +51472,8 @@
             "open": 369.34,
             "high": 385.1199,
             "low": 360.2,
-            "close": 377.03,
-            "volume": 120431305
+            "close": 378.23,
+            "volume": 122660558
           }
         ],
         "yearly": [
@@ -51634,8 +51642,8 @@
             "open": 337.15,
             "high": 385.1199,
             "low": 310.4,
-            "close": 377.03,
-            "volume": 747246805
+            "close": 378.23,
+            "volume": 749476058
           }
         ]
       }
@@ -51644,13 +51652,13 @@
       "id": "VOO",
       "name": "Vanguard S&P 500",
       "type": "etf",
-      "date": "2026-08-24",
-      "close": 701.78,
-      "change_pct": -0.28,
-      "rsi14": 52.1,
-      "ma200_deviation_zscore": 0.11,
-      "price_percentile_3y": 98.3,
-      "composite_score": 63.8,
+      "date": "2026-08-26",
+      "close": 704.2,
+      "change_pct": 0.34,
+      "rsi14": 54.4,
+      "ma200_deviation_zscore": 0.18,
+      "price_percentile_3y": 98.4,
+      "composite_score": 67.2,
       "timeframes": {
         "daily": [
           {
@@ -83756,6 +83764,14 @@
             "low": 700.53,
             "close": 701.78,
             "volume": 12792893
+          },
+          {
+            "date": "2026-08-26",
+            "open": 702.9,
+            "high": 705.305,
+            "low": 702.24,
+            "close": 704.2,
+            "volume": 7098862
           }
         ],
         "weekly": [
@@ -90426,10 +90442,10 @@
           {
             "date": "2026-08-28",
             "open": 702.97,
-            "high": 703.3899,
+            "high": 705.305,
             "low": 700.53,
-            "close": 701.78,
-            "volume": 12792893
+            "close": 704.2,
+            "volume": 19891755
           }
         ],
         "monthly": [
@@ -91966,8 +91982,8 @@
             "open": 688.83,
             "high": 716.39,
             "low": 688.61,
-            "close": 701.78,
-            "volume": 97157940
+            "close": 704.2,
+            "volume": 104256802
           }
         ],
         "quarterly": [
@@ -92488,8 +92504,8 @@
             "open": 684.73,
             "high": 716.39,
             "low": 670.16,
-            "close": 701.78,
-            "volume": 221935240
+            "close": 704.2,
+            "volume": 229034102
           }
         ],
         "yearly": [
@@ -92626,8 +92642,8 @@
             "open": 630.64,
             "high": 716.39,
             "low": 578.46,
-            "close": 701.78,
-            "volume": 1401178140
+            "close": 704.2,
+            "volume": 1408277002
           }
         ]
       }
@@ -92636,13 +92652,13 @@
       "id": "IVV",
       "name": "iShares S&P 500",
       "type": "etf",
-      "date": "2026-08-24",
-      "close": 767.11,
-      "change_pct": -0.28,
-      "rsi14": 52.2,
-      "ma200_deviation_zscore": 0.13,
-      "price_percentile_3y": 98.3,
-      "composite_score": 64.0,
+      "date": "2026-08-26",
+      "close": 769.65,
+      "change_pct": 0.33,
+      "rsi14": 54.4,
+      "ma200_deviation_zscore": 0.2,
+      "price_percentile_3y": 98.4,
+      "composite_score": 67.2,
       "timeframes": {
         "daily": [
           {
@@ -133108,6 +133124,14 @@
             "low": 765.735,
             "close": 767.11,
             "volume": 3438275
+          },
+          {
+            "date": "2026-08-26",
+            "open": 768.38,
+            "high": 770.97,
+            "low": 767.5605,
+            "close": 769.65,
+            "volume": 5461572
           }
         ],
         "weekly": [
@@ -141506,10 +141530,10 @@
           {
             "date": "2026-08-28",
             "open": 768.385,
-            "high": 768.8227,
+            "high": 770.97,
             "low": 765.735,
-            "close": 767.11,
-            "volume": 3438275
+            "close": 769.65,
+            "volume": 8899847
           }
         ],
         "monthly": [
@@ -143446,8 +143470,8 @@
             "open": 753.01,
             "high": 783.09,
             "low": 752.66,
-            "close": 767.11,
-            "volume": 51847201
+            "close": 769.65,
+            "volume": 57308773
           }
         ],
         "quarterly": [
@@ -144096,8 +144120,8 @@
             "open": 748.41,
             "high": 783.09,
             "low": 732.5,
-            "close": 767.11,
-            "volume": 151173101
+            "close": 769.65,
+            "volume": 156634673
           }
         ],
         "yearly": [
@@ -144266,8 +144290,8 @@
             "open": 688.74,
             "high": 783.09,
             "low": 632.14,
-            "close": 767.11,
-            "volume": 1239095701
+            "close": 769.65,
+            "volume": 1244557273
           }
         ]
       }
@@ -144276,13 +144300,13 @@
       "id": "SPY",
       "name": "SPDR S&P 500",
       "type": "etf",
-      "date": "2026-08-24",
-      "close": 763.48,
-      "change_pct": -0.29,
-      "rsi14": 52.2,
-      "ma200_deviation_zscore": 0.12,
-      "price_percentile_3y": 98.3,
-      "composite_score": 63.8,
+      "date": "2026-08-26",
+      "close": 766.08,
+      "change_pct": 0.34,
+      "rsi14": 54.3,
+      "ma200_deviation_zscore": 0.19,
+      "price_percentile_3y": 98.4,
+      "composite_score": 67.3,
       "timeframes": {
         "daily": [
           {
@@ -184748,6 +184772,14 @@
             "low": 762.08,
             "close": 763.48,
             "volume": 129164445
+          },
+          {
+            "date": "2026-08-26",
+            "open": 764.73,
+            "high": 767.35,
+            "low": 763.93,
+            "close": 766.08,
+            "volume": 27260923
           }
         ],
         "weekly": [
@@ -193146,10 +193178,10 @@
           {
             "date": "2026-08-28",
             "open": 764.78,
-            "high": 765.22,
+            "high": 767.35,
             "low": 762.08,
-            "close": 763.48,
-            "volume": 129164445
+            "close": 766.08,
+            "volume": 156425368
           }
         ],
         "monthly": [
@@ -195086,8 +195118,8 @@
             "open": 749.44,
             "high": 779.37,
             "low": 748.8,
-            "close": 763.48,
-            "volume": 908378667
+            "close": 766.08,
+            "volume": 935639590
           }
         ],
         "quarterly": [
@@ -195736,8 +195768,8 @@
             "open": 745.0,
             "high": 779.37,
             "low": 729.1,
-            "close": 763.48,
-            "volume": 1973324767
+            "close": 766.08,
+            "volume": 2000585690
           }
         ],
         "yearly": [
@@ -195906,8 +195938,8 @@
             "open": 685.71,
             "high": 779.37,
             "low": 629.28,
-            "close": 763.48,
-            "volume": 10883046967
+            "close": 766.08,
+            "volume": 10910307890
           }
         ]
       }
@@ -195916,13 +195948,13 @@
       "id": "QQQ",
       "name": "Invesco NASDAQ 100",
       "type": "etf",
-      "date": "2026-08-24",
-      "close": 706.24,
-      "change_pct": -1.01,
-      "rsi14": 46.4,
-      "ma200_deviation_zscore": -0.24,
-      "price_percentile_3y": 92.5,
-      "composite_score": 57.0,
+      "date": "2026-08-26",
+      "close": 711.37,
+      "change_pct": 0.73,
+      "rsi14": 49.3,
+      "ma200_deviation_zscore": -0.12,
+      "price_percentile_3y": 93.7,
+      "composite_score": 61.7,
       "timeframes": {
         "daily": [
           {
@@ -236388,6 +236420,14 @@
             "low": 702.7,
             "close": 706.24,
             "volume": 311992606
+          },
+          {
+            "date": "2026-08-26",
+            "open": 708.5,
+            "high": 713.018,
+            "low": 707.97,
+            "close": 711.37,
+            "volume": 18464999
           }
         ],
         "weekly": [
@@ -244786,10 +244826,10 @@
           {
             "date": "2026-08-28",
             "open": 709.625,
-            "high": 709.79,
+            "high": 713.018,
             "low": 702.7,
-            "close": 706.24,
-            "volume": 311992606
+            "close": 711.37,
+            "volume": 330457605
           }
         ],
         "monthly": [
@@ -246726,8 +246766,8 @@
             "open": 688.3,
             "high": 734.58,
             "low": 685.82,
-            "close": 706.24,
-            "volume": 1450368319
+            "close": 711.37,
+            "volume": 1468833318
           }
         ],
         "quarterly": [
@@ -247376,8 +247416,8 @@
             "open": 729.19,
             "high": 734.58,
             "low": 661.14,
-            "close": 706.24,
-            "volume": 2345269719
+            "close": 711.37,
+            "volume": 2363734718
           }
         ],
         "yearly": [
@@ -247546,8 +247586,8 @@
             "open": 620.06,
             "high": 748.65,
             "low": 555.6,
-            "close": 706.24,
-            "volume": 9172255619
+            "close": 711.37,
+            "volume": 9190720618
           }
         ]
       }
@@ -247556,13 +247596,13 @@
       "id": "VT",
       "name": "Vanguard 全世界",
       "type": "etf",
-      "date": "2026-08-24",
-      "close": 160.075,
-      "change_pct": -0.44,
-      "rsi14": 54.2,
-      "ma200_deviation_zscore": 0.34,
-      "price_percentile_3y": 98.5,
-      "composite_score": 66.6,
+      "date": "2026-08-26",
+      "close": 160.87,
+      "change_pct": 0.5,
+      "rsi14": 57.1,
+      "ma200_deviation_zscore": 0.45,
+      "price_percentile_3y": 99.2,
+      "composite_score": 71.0,
       "timeframes": {
         "daily": [
           {
@@ -284108,6 +284148,14 @@
             "low": 159.78,
             "close": 160.075,
             "volume": 1784871
+          },
+          {
+            "date": "2026-08-26",
+            "open": 160.93,
+            "high": 161.29,
+            "low": 160.58,
+            "close": 160.87,
+            "volume": 1370496
           }
         ],
         "weekly": [
@@ -291698,10 +291746,10 @@
           {
             "date": "2026-08-28",
             "open": 160.33,
-            "high": 160.5,
+            "high": 161.29,
             "low": 159.78,
-            "close": 160.075,
-            "volume": 1784871
+            "close": 160.87,
+            "volume": 3155367
           }
         ],
         "monthly": [
@@ -293454,8 +293502,8 @@
             "open": 156.4,
             "high": 162.71,
             "low": 156.19,
-            "close": 160.075,
-            "volume": 39033584
+            "close": 160.87,
+            "volume": 40404080
           }
         ],
         "quarterly": [
@@ -294048,8 +294096,8 @@
             "open": 156.19,
             "high": 162.71,
             "low": 152.13,
-            "close": 160.075,
-            "volume": 92154384
+            "close": 160.87,
+            "volume": 93524880
           }
         ],
         "yearly": [
@@ -294202,8 +294250,8 @@
             "open": 142.26,
             "high": 162.71,
             "low": 133.65,
-            "close": 160.075,
-            "volume": 659427584
+            "close": 160.87,
+            "volume": 660798080
           }
         ]
       }
