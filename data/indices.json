@@ -10,7 +10,7 @@
       "rsi14": 52.7,
       "ma200_deviation_zscore": 0.46,
       "price_percentile_3y": 97.9,
-      "composite_score": 71.8,
+      "composite_score": 69.4,
       "timeframes": {
         "daily": [
           {
@@ -51730,7 +51730,7 @@
       "rsi14": 55.1,
       "ma200_deviation_zscore": -0.06,
       "price_percentile_3y": 97.4,
-      "composite_score": 65.8,
+      "composite_score": 63.5,
       "timeframes": {
         "daily": [
           {
@@ -103450,7 +103450,7 @@
       "rsi14": 48.9,
       "ma200_deviation_zscore": 0.15,
       "price_percentile_3y": 91.7,
-      "composite_score": 68.3,
+      "composite_score": 65.9,
       "timeframes": {
         "daily": [
           {
