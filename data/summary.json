@@ -1,14 +1,14 @@
 {
-  "generated_at_source_date": "2026-10-16",
-  "market_temperature": 42.5,
+  "generated_at_source_date": "2026-10-19",
+  "market_temperature": 46.6,
   "market_temperature_zone": "中性",
-  "dca_multiplier": 1.015,
+  "dca_multiplier": 1.007,
   "dca_multiplier_range_note": "有界傾斜範圍 0.9x-1.1x（AS-IS 設計，連續公式，未採門檻觸發版本）",
   "vix": {
-    "date": "2026-10-16",
-    "close": 19.99,
-    "percentile_3y": 82.5,
-    "temperature_contribution": 17.5
+    "date": "2026-10-19",
+    "close": 18.44,
+    "percentile_3y": 72.7,
+    "temperature_contribution": 27.3
   },
   "disclaimer": "本頁所有分數為公開技術指標的客觀呈現，統計上是否能提升定期定額報酬證據薄弱（信心約 45/100），僅供資訊參考，不構成個人化投資建議。"
 }
