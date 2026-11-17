@@ -1,61 +1,56 @@
 {
-  "filing_date": "2026-08-14",
-  "report_period_end": "2026-06-30",
-  "compared_to_report_period_end": "2026-03-31",
+  "filing_date": "2026-11-16",
+  "report_period_end": "2026-09-30",
+  "compared_to_report_period_end": "2026-06-30",
   "note": "13F 依 SEC 規定每季申報、最長落後申報截止日 45 天，僅反映個股買賣，非大盤估值，不併入每日市場溫度分數，僅作季度低頻脈絡參考。",
-  "direction": "淨買超",
-  "holdings_count_latest": 29,
+  "direction": "淨賣超",
+  "holdings_count_latest": 30,
   "holdings_count_previous": 29,
-  "increased_count": 7,
+  "increased_count": 4,
   "decreased_count": 6,
   "new_count": 1,
-  "sold_out_count": 1,
+  "sold_out_count": 0,
   "top_increased": [
     {
-      "name": "ALPHABET INC",
-      "shares": 27188433,
-      "change_pct": 658.3487461700345
+      "name": "LENNAR CORP",
+      "shares": 26034436,
+      "change_pct": 98.55819299664323
     },
     {
-      "name": "MACYS INC",
-      "shares": 7347426,
-      "change_pct": 141.82249934586312
+      "name": "LENNAR CORP",
+      "shares": 553000,
+      "change_pct": 85.49764018824824
     },
     {
-      "name": "ALPHABET INC",
-      "shares": 78791167,
-      "change_pct": 45.23771498651479
+      "name": "DELTA AIR LINES INC",
+      "shares": 64450000,
+      "change_pct": 12.438939288206562
     }
   ],
   "top_new": [
     {
-      "name": "D R HORTON INC",
-      "shares": 3564
+      "name": "BENDING SPOONS SPA",
+      "shares": 20689655
     }
   ],
   "top_decreased": [
     {
       "name": "CAPITAL ONE FINL CORP",
-      "shares": 3000000,
-      "change_pct": -58.04195804195804
+      "shares": 1150000,
+      "change_pct": -61.66666666666667
+    },
+    {
+      "name": "VERISIGN INC",
+      "shares": 5922136,
+      "change_pct": -34.12441545382141
     },
     {
       "name": "NUCOR CORP",
-      "shares": 1857752,
-      "change_pct": -52.45159102397574
-    },
-    {
-      "name": "KROGER CO",
-      "shares": 39000000,
-      "change_pct": -21.999999999999996
+      "shares": 1580776,
+      "change_pct": -14.909202089406982
     }
   ],
-  "top_sold_out": [
-    {
-      "name": "CONSTELLATION BRANDS INC",
-      "shares": 632890
-    }
-  ],
-  "total_value_latest": 299253556246,
-  "total_value_previous": 263095703570
+  "top_sold_out": [],
+  "total_value_latest": 304196581325,
+  "total_value_previous": 299253556246
 }
